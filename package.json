@@ -1,0 +1,40 @@
+{
+  "name": "super-simple-bit-docs",
+  "version": "1.0.0",
+  "description": "The barebones example of using bit-docs.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoj3n/super-simple-bit-docs.git"
+  },
+  "author": "Bitovi",
+  "license": "MIT",
+  "devDependencies": {
+    "bit-docs": "*"
+  },
+  "bit-docs": {
+    "dependencies": {
+      "bit-docs-glob-finder": "*",
+      "bit-docs-dev": "*",
+      "bit-docs-js": "*",
+      "bit-docs-tag-sourceref": "*",
+      "bit-docs-generate-html": "*",
+      "bit-docs-html-canjs": "*",
+      "bit-docs-prettify": "*",
+      "bit-docs-html-highlight-line": "*",
+      "bit-docs-tag-demo": "*",
+      "bit-docs-tag-package": "*"
+    },
+    "glob": {
+      "pattern": "docs/**/*.{js,md}",
+      "ignore": [
+        "docs/ignoremepls/**/*"
+      ]
+    },
+    "parent": "easyaspie",
+    "minifyBuild": false
+  }
+}
