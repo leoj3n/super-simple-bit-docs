@@ -109,10 +109,10 @@ In `package.json`, delete the following line:
       "bit-docs-prettify": "*",
 ```
 
-Then, regenerate the documentation:
+Then, regenerate the documentation using the `-f` force flag:
 
 ```
-rm -rf node_modules doc && npm i && ./node_modules/bit-docs/bin/bit-docs && http-server
+./node_modules/bit-docs/bin/bit-docs -f && http-server
 ```
 
 Now when you visit <http://127.0.0.1:8080/doc>, the code-snippet is no longer "prettified":
