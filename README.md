@@ -2,6 +2,8 @@
 
 Let this repo serve as an example of the simplest possible implementation of [`bit-docs`](https://github.com/bit-docs/bit-docs).
 
+It can be used by beginners to get started, or as a lowest common denominator for test cases.
+
 ## Quick Start
 
 Install the npm dependencies defined in [`package.json`](package.json):
@@ -33,15 +35,12 @@ This configuration defines the plugins `bit-docs` should install and use; for ex
       "bit-docs-glob-finder": "*",
       "bit-docs-dev": "*",
       "bit-docs-js": "*",
-      "bit-docs-tag-sourceref": "*",
       "bit-docs-generate-html": "*",
-      "bit-docs-html-canjs": "*",
-      "bit-docs-prettify": "*",
-      "bit-docs-html-highlight-line": "*",
-      "bit-docs-tag-demo": "*",
-      "bit-docs-tag-package": "*"
+      "bit-docs-prettify": "*"
     },
 ```
+
+Note: All of the other plugins listed in `dependencies` (specifically: `bit-docs-glob-finder`, `bit-docs-dev`, `bit-docs-js`, `bit-docs-generate-html`) are necessary for the core operation of `bit-docs` and therefore should be considered mandatory.
 
 Continuing with the `bit-docs` configuration, you will see the `glob` definition; this tells `bit-docs` where (or where not) to look for files for inclusion in the built documentation: 
 

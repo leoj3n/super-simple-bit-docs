@@ -13,20 +13,14 @@
   "author": "Bitovi",
   "license": "MIT",
   "devDependencies": {
-    "bit-docs": "*"
+    "bit-docs": "bit-docs/bit-docs#bit-docs-bit-doced"
   },
   "bit-docs": {
     "dependencies": {
       "bit-docs-glob-finder": "*",
       "bit-docs-dev": "*",
       "bit-docs-js": "*",
-      "bit-docs-tag-sourceref": "*",
-      "bit-docs-generate-html": "*",
-      "bit-docs-html-canjs": "*",
-      "bit-docs-prettify": "*",
-      "bit-docs-html-highlight-line": "*",
-      "bit-docs-tag-demo": "*",
-      "bit-docs-tag-package": "*"
+      "bit-docs-generate-html": "*"
     },
     "glob": {
       "pattern": "docs/**/*.{js,md}",
