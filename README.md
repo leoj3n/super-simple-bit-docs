@@ -40,7 +40,7 @@ This configuration defines the plugins `bit-docs` should install and use; for ex
     },
 ```
 
-Note: All of the other plugins listed in `dependencies` (specifically: `bit-docs-glob-finder`, `bit-docs-dev`, `bit-docs-js`, `bit-docs-generate-html`) are necessary for the core operation of `bit-docs` and therefore should be considered mandatory.
+**Note**: All other plugins listed in `dependencies` (`bit-docs-glob-finder`, `bit-docs-dev`, `bit-docs-js`, `bit-docs-generate-html`) are necessary for the core operation of `bit-docs` and therefore should be considered mandatory.
 
 Continuing with the `bit-docs` configuration, you will see the `glob` definition; this tells `bit-docs` where (or where not) to look for files for inclusion in the built documentation: 
 
