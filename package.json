@@ -20,7 +20,8 @@
       "bit-docs-glob-finder": "*",
       "bit-docs-dev": "*",
       "bit-docs-js": "*",
-      "bit-docs-generate-html": "*"
+      "bit-docs-generate-html": "*",
+      "bit-docs-prettify": "*"
     },
     "glob": {
       "pattern": "docs/**/*.{js,md}",
