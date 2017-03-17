@@ -20,7 +20,7 @@
       "bit-docs-glob-finder": "0.0.6",
       "bit-docs-dev": "*",
       "bit-docs-js": "*",
-      "bit-docs-generate-html": "*",
+      "bit-docs-generate-html": "file:///Users/leoj/tmp/repro-bit-docs/bit-docs-generate-html",
       "bit-docs-prettify": "*"
     },
     "glob": {
