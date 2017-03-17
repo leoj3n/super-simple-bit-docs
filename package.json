@@ -17,7 +17,7 @@
   },
   "bit-docs": {
     "dependencies": {
-      "bit-docs-glob-finder": "*",
+      "bit-docs-glob-finder": "0.0.6",
       "bit-docs-dev": "*",
       "bit-docs-js": "*",
       "bit-docs-generate-html": "*",

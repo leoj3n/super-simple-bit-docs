@@ -1,0 +1,3 @@
+Getting glob module that breaks on `xyz.md` directory.
+Adding console.logs to bit-docs-generate-html
+Solution might be higher up, in bit-docs/bit-docs
