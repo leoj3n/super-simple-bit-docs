@@ -28,7 +28,7 @@ Next in line is the `bit-docs` json, because the `bit-docs` command-line tool lo
   "bit-docs": {
 ```
 
-This configuration defines the plugins `bit-docs` should install and use; for example, `bit-docs-prettify` will enable syntax highlighting of code-snippets in the generated HTML:
+This configuration defines the plugins `bit-docs` should install and use; for example, [`bit-docs-prettify`](https://github.com/bit-docs/bit-docs-prettify) will enable syntax highlighting of code-snippets in the generated HTML:
 
 ```json
     "dependencies": {
