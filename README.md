@@ -100,6 +100,8 @@ In the generated `doc` directory, you will also find a file called `searchMap.js
 
 ## Things to Try
 
+### Remove `bit-docs-prettify`
+
 Try adding and removing the `bit-docs-prettify` plugin to see how things change.
 
 In `package.json`, delete the following line:
@@ -117,6 +119,59 @@ Then, regenerate the documentation using the `-f` force flag:
 Now, when you visit <http://127.0.0.1:8080/doc>, the code-snippet is no longer "prettified":
 
 ![result](.github/resultB.png)
+
+### Add `document` Script
+
+Try adding `document` to the `script` section in the `package.json` like:
+
+```json
+  "scripts": {
+    "document": "bit-docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+```
+
+Now, instead of the cumbersome command we've been using to run `bit-docs`:
+
+```
+./node_modules/bit-docs/bin/bit-docs
+```
+
+You can simply tell `npm` to `run ` the `document` script like so:
+
+```
+npm run document
+```
+
+### Add JavaScript to be Documented
+
+Create a new `.js` file at `docs/hello-world.js` with inline documentation in comments like:
+
+```js
+/**
+ * @module {function} hello-world
+ * @description a description
+ * @body
+ * Some content
+ */
+module.exports = function(){
+	return "Hello World"
+}
+```
+
+Now, rebuild the documentation:
+
+```
+npm run document -f
+```
+
+You should be able to see the result with:
+
+```
+http-server
+```
+
+Run that command, and then use your web browser to visit <http://127.0.0.1:8080/doc/hello-world.html>.
 
 ## Alpha Software
 
