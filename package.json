@@ -13,7 +13,7 @@
   "author": "Bitovi",
   "license": "MIT",
   "devDependencies": {
-    "bit-docs": "bit-docs/bit-docs#bit-docs-bit-doced"
+    "bit-docs": "bit-docs/bit-docs"
   },
   "bit-docs": {
     "dependencies": {
